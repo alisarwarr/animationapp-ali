@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+body {
+    background-image: url('./bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+#sun {
+    height: 190px;
+    width: 190px;
+}
+#cloud {
+    height: 250px;
+    width: 420px;
+}
+#bird {
+    height: 200px;
+    width: 280px;
+}
+#bike {
+    height: 310px;
+    width: 450px;
+}
+#tree {
+    height: 500px;
+    width: 320px;
+}
+
+.suncloudBox {
+    display: flex;
+    align-items: center;
+    margin-left: -5px;
+    figure {
+        flex-grow: 1;
+    }
+}
+.treeBox {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -230px;
+}
+.birdbikeBox {
+    margin-top: -360px;
+}
